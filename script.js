@@ -4,9 +4,7 @@ function display(title, value) {
     document.body.innerHTML += `<p><strong>${title}</strong> ${JSON.stringify(value)}</p>`;
 }
 
-// ==========================================
-// ✅ REST OPERATOR – PRACTICE
-// ==========================================
+
 
 // 1️⃣ Create a function sumAll that accepts unlimited numbers using the rest operator and returns their total.
 function sumAll(...numbers) {
@@ -85,10 +83,6 @@ function processNumbers(firstNum, ...others) {
 display("processNumbers:", processNumbers(5, 10, 15, 20));
 
 
-
-// ==========================================
-// ✅ SPREAD OPERATOR – PRACTICE
-// ==========================================
 
 
 // 1️⃣ Copy an array using the spread operator and check whether modifying the new array affects the original array.
